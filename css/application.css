@@ -52,7 +52,7 @@ p {
   -webkit-user-select: none;
 }
 
-#stage > img {
+#stage > .placeholder > img {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -68,8 +68,6 @@ p {
 #stage .photo {
   width: 90px;
   height: 90px;
-  position: relative;
-  left: 40px;
   background: #FFF;
   border: 10px solid #FFF;
 }
