@@ -1,0 +1,5 @@
+body {
+  background: url('../images/noise.png'), -moz-radial-gradient(center 260px 0deg, circle closest-side, #888 0%, #222 100%) no-repeat;
+  background: url('../images/noise.png'), -webkit-gradient(radial, center 250, 0, center 250, 300, from(#888), to(#222)) no-repeat;
+  background-color: #222;
+}
