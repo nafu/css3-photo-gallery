@@ -3,3 +3,20 @@ body {
   background: url('../images/noise.png'), -webkit-gradient(radial, center 250, 0, center 250, 300, from(#888), to(#222)) no-repeat;
   background-color: #222;
 }
+
+h1 {
+  font-family: 'Just Me Again Down Here', arial, serif;
+  font-size: 6em;
+  font-weight: normal;
+  margin: 12px 0px 30px;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 2px 1px #000;
+}
+
+h2 {
+  color: #FFF;
+  font-family: 'Raleway', arial, serif;
+  font-weight: bold;
+  text-shadow: 0px -1px 1px #000;
+}
