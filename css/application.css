@@ -41,7 +41,7 @@ p {
 
 #stage {
   background: #DDD;
-  height: 114px;
+  height: 320px;
   padding: 10px;
   -webkit-box-shadow: inset 0px 0px 5px #000;
   -moz-box-shadow: inset 0px 0px 5px #000;
@@ -58,12 +58,20 @@ p {
   transition: all 0.2s ease-in-out;
 }
 
+#stage .placeholder {
+  float: left;
+  width: 210px;
+  height: 160px;
+  margin: 12px;
+}
+
 #stage .photo {
   width: 90px;
   height: 90px;
+  position: relative;
+  left: 40px;
   background: #FFF;
   border: 10px solid #FFF;
-  position: absolute;
 }
 
 #stage .photo:hover {
@@ -73,19 +81,9 @@ p {
   cursor: pointer;
 }
 
-#photo01 { top: 10px; left:  30px; }
-#photo02 { top: 10px; left: 145px; }
-#photo03 { top: 10px; left: 260px; }
-#photo04 { top: 10px; left: 375px; }
-#photo05 { top: 10px; left: 490px; }
-#photo06 { top: 10px; left: 605px; }
-#photo07 { top: 10px; left: 720px; }
-#photo08 { top: 10px; left: 835px; }
-
 #stage .large_photo {
   width: 114px;
   height: 114px;
-  position: absolute;
   z-index: 1000;
   -webkit-transform: rotate(-5deg);
   -moz-transform: rotate(-5deg);
